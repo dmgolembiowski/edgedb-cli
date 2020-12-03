@@ -1,7 +1,9 @@
 #### Issue 14: Vim mode:
 
 - [ ] Vi-like (visual//visual-block) mode
-
+  - [ ] Extract essential logic from [The Source](https://github.com/vim/vim/blob/master/src/clipboard.c)<sup>TM</sup>
+  - [ ] Identify reusable logic from the amp editor
+  - [ ] Create a safe binding to improved Vi-like mode capabilities so that `interactive.rs` can be largely unchanged
 - [ ] Prevent accidental closures of the CLI via <kbd>Ctrl</kbd>+<kbd>d</kbd>.
 
 > ```rust
